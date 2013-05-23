@@ -24,13 +24,13 @@
 -include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/jfltetmo/BoardConfigVendor.mk
+-include vendor/samsung/jfltevzw/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltetmo
+TARGET_OTA_ASSERT_DEVICE := jfltevzw
 
 # Kernel
-TARGET_KERNEL_CONFIG         := jf_tmo_defconfig
+TARGET_KERNEL_CONFIG         := jf_vzw_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := cyanogen_jf_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 
