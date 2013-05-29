@@ -35,6 +35,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SCH-I545
 
 # loki
-PRODUCT_COPY_FILES += \
-    device/samsung/jfltevzw/loki/loki.sh:system/bin/loki.sh \
-    device/samsung/jfltevzw/loki/loki_patch:system/bin/loki_patch
+PRODUCT_PACKAGES += \
+    loki_patch \
+    loki.sh \
+    valid_bootloaders
