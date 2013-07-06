@@ -20,9 +20,7 @@
 # details, it only fundamentally contains two inherit-product
 # lines, full and maguro, hence its name.
 #
- 
-# Disable MSB for GPS
-NEEDS_GPS_MSB_DISABLED := true
+
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -35,11 +33,3 @@ PRODUCT_DEVICE := jfltevzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SCH-I545
-
-# loki
-PRODUCT_PACKAGES += \
-    loki_patch \
-    loki_flash \
-    loki.sh \
-    loki_bootloaders \
-    unlocked_bootloaders

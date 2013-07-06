@@ -17,6 +17,17 @@
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/jfltevzw/jfltevzw-vendor.mk)
 
+# Disable MSB for GPS
+NEEDS_GPS_MSB_DISABLED := true
+
+# loki
+PRODUCT_PACKAGES += \
+    loki_patch \
+    loki_flash \
+    loki.sh \
+    loki_bootloaders \
+    unlocked_bootloaders
+
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltevzw/overlay
 ## common overlays
