@@ -1,1 +1,10 @@
 # Add device specific blobs here
+
+# q6 firmware - ship so we can update APNHLOS and keep audio working
+firmware/image/q6.b00
+firmware/image/q6.b01
+firmware/image/q6.b03
+firmware/image/q6.b04
+firmware/image/q6.b05
+firmware/image/q6.b06
+firmware/image/q6.mdt
