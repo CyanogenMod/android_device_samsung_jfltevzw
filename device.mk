@@ -19,11 +19,10 @@ $(call inherit-product-if-exists, vendor/samsung/jfltevzw/jfltevzw-vendor.mk)
 
 # loki
 PRODUCT_PACKAGES += \
-    loki_patch \
-    loki_flash \
+    loki_tool \
     loki.sh \
     loki_bootloaders \
-    unlocked_bootloaders
+    recovery-transform.sh
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltevzw/overlay
