@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
     loki_patch \
     loki_flash \
     loki.sh \
-    loki_bootloaders \
-    unlocked_bootloaders
+    loki_bootloaders
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltevzw/overlay
