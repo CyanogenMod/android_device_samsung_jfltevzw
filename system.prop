@@ -4,8 +4,6 @@
 rild.libargs=-d /dev/smd0
 rild.libpath=/system/lib/libsec-ril.so
 
-ro.cdma.home.operator.numeric=311480
-ro.cdma.home.operator.alpha=Verizon
 ro.gps.set_privacy=1
 ro.telephony.default_network=10
 ro.telephony.get_imsi_from_sim=true
