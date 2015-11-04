@@ -33,3 +33,7 @@ PRODUCT_DEVICE := jfltevzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SCH-I545
+
+# Stlport
+PRODUCT_PACKAGES += \
+    libstlport
