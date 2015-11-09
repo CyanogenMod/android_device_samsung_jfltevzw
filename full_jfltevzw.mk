@@ -34,6 +34,10 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SCH-I545
 
+# Qualcomm
+PRODUCT_PACKAGES += \
+    libcnefeatureconfig
+
 # Stlport
 PRODUCT_PACKAGES += \
     libstlport

@@ -25,7 +25,6 @@ bin/qmuxd
 bin/rild
 bin/rmt_storage
 lib/libatparser.so
-lib/libcnefeatureconfig.so
 lib/libfactoryutil.so
 lib/libomission_avoidance.so
 lib/libreference-ril.so
