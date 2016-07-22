@@ -1,5 +1,15 @@
 # Add device specific blobs here
 
+# CNE
+vendor/lib/libcneapiclient.so
+
+# Graphics firmware
+etc/firmware/vidc.b00
+etc/firmware/vidc.b01
+etc/firmware/vidc.b02
+etc/firmware/vidc.b03
+etc/firmware/vidc.mdt
+
 # Q6 firmware
 etc/firmware/q6.b00
 etc/firmware/q6.b01
@@ -9,14 +19,20 @@ etc/firmware/q6.b05
 etc/firmware/q6.b06
 etc/firmware/q6.mdt
 
-# vidc firmware
-etc/firmware/vidc.b00
-etc/firmware/vidc.b01
-etc/firmware/vidc.b02
-etc/firmware/vidc.b03
-etc/firmware/vidc.mdt
+# Qualcomm framework
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
 
-# Radio/QMI
+# Radio
 bin/efsks
 bin/ks
 bin/netmgrd
@@ -33,18 +49,6 @@ lib/librmnetctl.so
 lib/libsec-ril.so
 lib/libsecril-client.so
 lib/libxml.so
-vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
-vendor/lib/libdiag.so
-vendor/lib/libdsutils.so
-vendor/lib/libidl.so
 vendor/lib/libnetmgr.so
-vendor/lib/libqcci_legacy.so
-vendor/lib/libqmi.so
-vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_qmux.so
-vendor/lib/libqmi_common_so.so
-vendor/lib/libqmi_csi.so
-vendor/lib/libqmi_encdec.so
-vendor/lib/libqmiservices.so
 vendor/lib/libril-qcril-hook-oem.so
