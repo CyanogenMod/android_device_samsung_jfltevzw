@@ -17,3 +17,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-verizon
 PRODUCT_NAME := cm_jfltevzw
 PRODUCT_DEVICE := jfltevzw
 
+# Must define radio variant before including any common things
+TARGET_RADIO_VARIANT := cdma
