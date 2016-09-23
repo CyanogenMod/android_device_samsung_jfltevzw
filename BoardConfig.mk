@@ -29,6 +29,9 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jfltevzw,jflte
 
+# Kernel
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androidkernel-
+
 # loki
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/jfltevzw/releasetools
 
